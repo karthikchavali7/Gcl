@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin :0;
+    box-sizing:border-box;
+}
+html{
+    font-family:sans-serif;
+}
+body{
+    background: #FFFFFF;
+}
+.ft{
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+    box-shadow: 0 0 2px 0 rgb(114,114,114);
+    flex-direction: row;
+    align-self:center;
+    
+
+}   
+.ft h5{
+    font-size:1.4rem;
+    margin-left: 5px;
+    color: #5F6368;
+}
+/* In your CSS file (e.g., styles.css) */
+.title-input {
+    margin-bottom: 10px; /* Add space below the "TITLE" input */
+  }
+  
+  .notes-textarea {
+    width: 100%;
+    height: 100px; /* You can adjust the height as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form{
+    position: relative;
+    width:600px;
+    justify-content: center;
+    margin:32px auto 50px auto;
+    background: #FFFFFF;
+    border-radius:7px;
+    box-shadow: 0px 1px 27px rgb(128,128,128);
+    padding:5px;
+    
+  }
+  form input{
+    width:100%;
+    border:7px;
+    font-size: 1rem;
+    outline:none
+  }
+  form textarea{
+    width:100%;
+    border:7px;
+    font-size: 1rem;
+    outline:none
+    
+  }
+  .xv{
+    border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: auto; /* Adjust the width as needed */
+  display: inline-block; /* Display notes inline */
+  box-shadow: 0px 1px 27px rgb(128,128,128);
+  border-radius:7px;
+  height:auto;
+}
+  
+  .xv p{
+    font-size:1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  form button{
+    display:flex;
+    width:50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius:100%;
+    cursor: pointer;
+    background: #FBBC04;
+    margin-left:520px;
+    color:#FFFFFF;
+    height: 30px;
+    border:none;
+    
+
+  }
